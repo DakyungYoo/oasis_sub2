@@ -1,0 +1,495 @@
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #595858;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+body{
+    font-family: "Noto Sans KR light";
+    font-size: 16px;
+}
+
+
+/*header*/
+
+#header{
+    background:rgba(255, 255, 255, 0.7);
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#header_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+
+.menu li a{
+    float: left;
+    padding-left: 100px;
+    padding-top: 56px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.icon li a{
+    float: left;
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+.menu li{
+    float: left;
+}
+
+.icon li{
+    float: right;
+}
+
+
+/*mainbanner*/
+
+#main_banner{
+    background: url(images/main.jpg) no-repeat center center;
+    height: 942px;
+    position: relative;
+}
+
+#main_banner_i{
+    position: absolute;
+    top: 441px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+/*perfume*/
+
+#perfume{
+    margin: 0 auto;
+    width: 1329px;
+    padding-top: 105px;
+    height: 660px;
+}
+
+.perfume_inner{
+    padding-top: 99px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.perfume_inner>div h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+.per1{
+    float: left;
+    padding-right: 100px;
+}
+
+.per2{
+    float: left;
+    padding-right: 100px;
+}
+
+.per3{
+    float: left;
+}
+
+.per1 h3, .per2 h3, .per3 h3{
+    padding-top: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.per1 h4, .per2 h4, .per3 h4{
+    padding-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.per1 h5, .per2 h5, .per3 h5{
+    padding-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+/*hair*/
+
+#hair{
+    margin: 0 auto;
+    width: 1329px;
+    padding-top: 105px;
+    height: 1225px;
+}
+
+.hair_inner{
+    padding-top: 99px;
+    padding-left: 90px;
+    text-align: center;
+    height: 485px;
+}
+
+.hair_inner2{
+    padding-top: 50px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.hair_inner>div h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+.hair_inner2>div h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+.hair1{
+    float: left;
+    padding-right: 90px;
+}
+
+.hair2{
+    float: left;
+    padding-right: 90px;
+}
+
+.hair3{
+    float: left;
+    padding-right: 90px;
+}
+
+.hair4{
+    float: left;
+}
+
+.hair5{
+    float: left;
+    padding-right: 42px;
+}
+
+.hair6{
+    float: left;
+    padding-right: 41px;
+}
+
+.hair7{
+    float: left;
+    padding-right: 55px;
+}
+
+.hair8{
+    float: left;
+}
+
+.hair1 h3, .hair2 h3, .hair3 h3, .hair4 h3, .hair5 h3, .hair6 h3, .hair7 h3, .hair8 h3{
+    padding-top: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hair1 h4, .hair2 h4, .hair3 h4, .hair4 h4, .hair5 h4, .hair6 h4, .hair7 h4, .hair8 h4{
+    padding-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hair1 h5, .hair2 h5, .hair3 h5, .hair4 h5, .hair5 h5, .hair6 h5, .hair7 h5, .hair8 h5{
+    padding-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+/*aroma*/
+
+#aroma{
+    margin: 0 auto;
+    width: 1329px;
+    padding-top: 105px;
+    height: 660px;
+}
+
+.aroma_inner{
+    padding-top: 99px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.aroma_inner>div h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+.aroma1{
+    float: left;
+    padding-right: 100px;
+}
+
+.aroma2{
+    float: left;
+    padding-right: 100px;
+}
+
+.aroma3{
+    float: left;
+}
+
+.aroma1 h3, .aroma2 h3, .aroma3 h3{
+    padding-top: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aroma1 h4, .aroma2 h4, .aroma3 h4{
+    padding-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aroma1 h5, .aroma2 h5, .aroma3 h5{
+    padding-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+/*zerowaste*/
+
+#zero{
+    margin: 0 auto;
+    width: 1329px;
+    padding-top: 105px;
+    height: 660px;
+}
+
+.zero_inner{
+    padding-top: 99px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.zero_inner>div h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+.zero1{
+    float: left;
+    padding-right: 230px;
+}
+
+.zero2{
+    float: left;
+    padding-right: 220px;
+}
+
+.zero3{
+    float: left;
+}
+
+.zero1 h3, .zero2 h3, .zero3 h3{
+    padding-top: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.zero1 h4, .zero2 h4, .zero3 h4{
+    padding-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.zero1 h5, .zero2 h5, .zero3 h5{
+    padding-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+
+
+/*footer*/
+
+#footer{
+    background-color: #ebebeb;
+    margin-top: 199px;
+}
+
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+
+.icon2{
+    display: inline-block;
+}
+
+.icon2 h1{
+    float: left;
+    padding: 30px 20px 5px 20px;
+}
+
+#footer h2{
+    font-family: 'HeirofLightRegular';
+    font-size: 18px;
+    color: #4e443b;
+}
+
+.contact h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 30px 15px 10px 15px;
+    color: #4e443b;
+}
+
+.contact{
+    width: 513.03px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2{
+    width: 709px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0px 5px 0px 5px;
+    color: #4e443b;
+}
+
+.info3{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.info3 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 0px 5px 10px 5px;
+    color: #4e443b;
+}
+
+#footer h4{
+    padding-bottom: 33px;
+}
+
+
+
+
+
+
+
